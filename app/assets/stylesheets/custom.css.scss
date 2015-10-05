@@ -1,0 +1,217 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* universal */
+
+body {
+  padding-top: 100px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+  
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #777;
+}
+
+.para p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+
+
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+
+/*navigation bar*/
+
+.top-nav {
+
+  text-transform: uppercase;
+  color: #f1f1f1;
+}
+
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  background-color: #1B1B1B;
+}
+
+footer a{
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
+
+footer h3{
+  color: #fff;
+  text-align: center;
+}
+footer hr{
+  background-color: #1B1B1B;
+  width: 20%;
+}
+.line-footer{
+    width: 15%;
+  margin-left: 150px;
+  color: aliceblue;
+  height: 1px;
+  background-color: #26ADB1;
+  margin-top: -8px;
+}
+
+/*homepage*/
+
+.centre {
+  margin: 45px auto 0px;
+  display: block;
+  text-align: center;
+  background-color: #26ADB1;
+  color: #FFF;
+  font-weight: 400;
+  border-radius: 6px;
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  font-size: 22px;
+}
+
+.project{
+
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.slide{
+ 
+}
+
+/*about us*/
+
+.about{
+  text-align: left;
+  color: #202020;
+  font-weight: normal;
+  margin: 0 0 10px;
+  line-height: 1.25;
+  font-size: 26px;
+
+}
+.entry-content{
+  text-align: left;
+  color: #202020;
+  font-weight: normal;
+  margin: 0 0 10px;
+  line-height: 1.25;
+  font-size: 18px;
+
+}
+
+
+
+/*team*/
+
+.people{
+  
+  height: auto;
+  max-width: 100%;
+}
+
+
+blockquote {
+  background: url(blockquote.png) no-repeat;
+  border: none;
+  margin: 5px 5px 20px;
+  padding: 25px 30px 5px 70px;
+}
+
+blockquote p {
+  color: #999;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+
+.donate h2{
+  text-align: left;
+    color: #202020;
+    font-size: 24px;
+}
+
+
+.donate h1{
+  text-align: left;
+  font-size: 26px;
+}
+
