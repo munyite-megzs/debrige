@@ -5,6 +5,8 @@
 
 body {
   padding-top: 100px;
+ background-color: #F7F7F7;
+
 }
 
 section {
@@ -29,6 +31,7 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
+  font-size:24px;
 }
 
 h1 {
@@ -59,12 +62,28 @@ h2 {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #fff;
+  color: #03B7F8;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
   &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+#logos{
+  float: left;
+  font-family: 'Bad Script', cursive;
+  margin-right: 80px;
+  font-size: 1.7em;
+  padding-right: 40px;
+  color: white;
+  text-transform: lowercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+   &:hover {
     color: #fff;
     text-decoration: none;
   }
@@ -78,6 +97,18 @@ h2 {
   text-transform: uppercase;
   color: #f1f1f1;
 }
+.color-me{
+  color: white;
+}
+
+.navbar-inner {
+  background-color: #0075BE;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #FFFFF3;
+}
+
 
 
 /* footer */
@@ -86,8 +117,8 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: #777;
-  background-color: #1B1B1B;
+  color: #000000;
+  background-color: #0075BE;
 }
 
 footer a{
@@ -117,7 +148,7 @@ footer h3{
   text-align: center;
 }
 footer hr{
-  background-color: #1B1B1B;
+  background-color:  #0075BE;
   width: 20%;
 }
 .line-footer{
@@ -127,6 +158,9 @@ footer hr{
   height: 1px;
   background-color: #26ADB1;
   margin-top: -8px;
+}
+.widget{
+    border-bottom: 1px solid #555557;
 }
 
 /*homepage*/
@@ -185,6 +219,11 @@ footer hr{
   max-width: 100%;
 }
 
+.img{
+  height: 480px;
+  width: 328px;
+}
+
 
 blockquote {
   background: url(blockquote.png) no-repeat;
@@ -217,7 +256,7 @@ blockquote p {
 .moses{
   height: 400px;
   max-width: 100%;
-   background: url('pics/MOSES.jpg') no-repeat;
+   background: url('pics/sposor.jpg') no-repeat;
 }
 .spons {
   color: #202020;
@@ -235,3 +274,26 @@ a.button {
   text-decoration: none;
 }
 
+.pic{
+
+    background: url('pics/land.jpg') no-repeat;
+    height: 300px;
+}
+.vol{
+
+    background: url('pics/volunteer.jpg') no-repeat;
+    height: 300px;
+}
+
+
+
+/*calesseral*/
+.cal{
+  margin-bottom: 150px;
+  font-family: ‘Fjalla One’; 
+  font-weight: 800;
+  font-size: 48px;
+  color: #FFFFFF;
+  background-color: #4E5B6C;
+
+}

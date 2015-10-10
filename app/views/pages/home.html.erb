@@ -11,26 +11,26 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-        <%= image_tag("pics/youth.jpg", :alt => "women") %>
+        <%= image_tag("pics/youth.jpg", :alt => "youth") %>
       <div class="carousel-caption">
         <h3>Youth</h3>
-        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+        <p class="cal">Teaching women how to bake cake</p>
       </div>
     </div>
 
     <div class="item">
-      <%= image_tag("pics/child.jpg", :alt => "women") %>
+      <%= image_tag("pics/child.jpg", :alt => "child") %>
       <div class="carousel-caption">
-        <h3>Children</h3>
-        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+        <h3> Debridge Children</h3>
+        <p class="cal">The future of Society</p>
       </div>
     </div>
 
     <div class="item">
         <%= image_tag("pics/Senior", :alt => "women") %>
       <div class="carousel-caption">
-        <h3>Senior</h3>
-        <p>Beatiful flowers in Kolymbari, Crete.</p>
+        <h3> Debridge Senior School</h3>
+        <p class="cal">Welcome to Debridge Community based organization</p>
       </div>
     </div>
 
@@ -38,7 +38,7 @@
         <%= image_tag("pics/141.jpg", :alt => "women") %>
       <div class="carousel-caption">
         <h3>Women</h3>
-        <p>Beatiful flowers in Kolymbari, Crete.</p>
+        <p class="cal">Sharing after a Successful Class</p>
       </div>
     </div>
   </div>
@@ -84,7 +84,7 @@
  		<%= image_tag("icon-female.png", :alt => "women") %>
          <h1>Women</h1>
  		<p>De Bridge community centre strongly believe that women are the pillars of the society. We started women group initiative with the primary aim of helping women to be financially independent. The women involved all know first-hand the challenges of raising a family in this environment. As well as providing support, that is income generating. </p>
- 		<%= link_to "Read More", '#', class: "btn btn-lg btn-primary" %>
+ 		<%= link_to "Read More", '/pages/women', class: "btn btn-lg btn-primary" %>
  		
  	</div>
 
@@ -92,16 +92,16 @@
  		<%= image_tag("icon-child.png", :alt => "youth") %>
             <h1>Youth</h1>
  		<p> Our organization has clearly seen the need and the benefit of supporting the youth by nurturing their skills and talent. We encourage the youth to participate in artistic work, community services and self-help group that enable them to be more productive and creative for their benefit and the benefit of the society. We help them to voice the ideas and concerns... </p>
- 		<%= link_to "Read More!", '#', class: "btn btn-lg btn-primary" %>
+ 		<%= link_to "Read More!", '/pages/youth', class: "btn btn-lg btn-primary" %>
  		
  	</div>
 
  	<div class="col-sm-3 project">
  			<%= image_tag("icon-home.png", :alt => "construction") %>
-            <h1>construction</h1>
+            <h1>Construction</h1>
  		<p>With a vision for future sustainability, we have started a long-term project to buy land and construct a comprehensive facility, including a primary school with dormitories, staff housing, multi-hall and kitchen.
 		We have currently leased three acres of land which have old structures and a residential home that we use as classroom and health facilities. </p>
-		<%= link_to "Read More", '#', class: "btn btn-lg btn-primary" %>
+		<%= link_to "Read More", '/pages/construction', class: "btn btn-lg btn-primary" %>
  		
  	</div>
 

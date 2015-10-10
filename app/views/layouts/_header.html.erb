@@ -1,22 +1,22 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
-  <div class="container-fluid">
-    <%= link_to "De Bridge", '#', id: "logo" %>
+<header class=" navbar navbar-fixed-top navbar-inverse  ">
+  <div class="navbar-inner container-fluid">
+    <%= link_to "De Bridge", '#', id: "logo" %><br>
+    <%= link_to "Community based organization", '#', id: "logos" %>
+   
     <nav>
 
 
-
-
-      <ul class="top-nav nav navbar-nav">
+    <ul class="top-nav nav navbar-nav">
 
   
       
 
-        <li><%= link_to "Home", "/pages/home" %></li>
+        <li><%= link_to "Home", "/pages/home", :class=>'color-me' %></li>
         <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<span class="caret"></span></a>
 
         <ul class="dropdown-menu" role="menu">
-          <li><a href="/pages/about">About Debridge</a></li>
+          <li><a class="color-me"  href="/pages/about">About Debridge</a></li>
           <li class="divider"></li>
           <li><a href="/pages/story">Our Story</a></li>
           <li class="divider"></li>
@@ -48,22 +48,23 @@
         <li class="divider"></li>
           <li><a href="/pages/children">Children</a></li>
           <li class="divider"></li>
-          <li><%= link_to 'Women Group', '#' %></li>
+          <li><%= link_to 'Women Group', '/pages/women' %></li>
           <li class="divider"></li>
-          <li><%= link_to 'Youth Group', '#' %></li>
+          <li><%= link_to 'Youth Group', '/pages/youth' %></li>
           <li class="divider"></li>
-          <li><%= link_to 'Health Program and Education', '#' %></li>
+          <li><%= link_to 'Health Program and Education', '/pages/health' %></li>
           <li class="divider"></li>
-          <li><%= link_to 'Construction', '#' %></li>
+          <li><%= link_to 'Construction', '/pages/construction' %></li>
         </ul>
       </li>
 
               <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Invoved<span class="caret"></span></a>
         <ul class="dropdown-menu" role="menu">
-          <li><a href="#">Volunteer</a></li>
+          <li><%= link_to 'Volunteer with US', '/pages/volunteer' %></li>
           <li class="divider"></li>
-          <li><%= link_to 'Fundraising', '#' %></li>
+          
+          <li><%= link_to 'Fundraising', '/pages/fund' %></li>
         </ul>
       </li>
        
