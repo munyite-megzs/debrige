@@ -118,7 +118,7 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #000000;
-  background-color: #0075BE;
+ 
 }
 
 footer a{
@@ -163,13 +163,19 @@ footer hr{
     border-bottom: 1px solid #555557;
 }
 
+.foot{
+    margin-left: -72.2px;
+  margin-right: -72.2px;
+  background-color: #0075BE;
+}
+
 /*homepage*/
 
 .centre {
   margin: 45px auto 0px;
   display: block;
   text-align: center;
-  background-color: #26ADB1;
+  background-color: #2A9DD6;
   color: #FFF;
   font-weight: 400;
   border-radius: 6px;
