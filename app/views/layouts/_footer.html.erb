@@ -3,6 +3,12 @@
 
     <div class="col-sm-4">
          <h3 class="widget">Facebook</h3>
+        
+         <p>Be the first of our friends to like our page.</p>
+            <div class="fb-like" data-href="https://www.facebook.com/Debridge-Community-Based-Organization-987417537990051/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+         
+
+        
       
 
 
@@ -28,9 +34,30 @@
   </div>
   <nav>
     <ul>
-       <li>© <%= Date.today.year %> All rights reserved.debridge</li>
+       <li>Â© <%= Date.today.year %> All rights reserved.debridge</li>
       
       
     </ul>
   </nav>
+
+
+
+
+
+
+      <script>
+   (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+     window.fbAsyncInit = function(){  // this gets triggered when FB object gets initialized
+            console.log("FB Object initiated");
+            FB.XFBML.parse(); // now we can safely call parse method
+       };
+
+</script>
 </footer>
